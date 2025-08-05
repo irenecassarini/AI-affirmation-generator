@@ -7,7 +7,6 @@ function showAffirmation() {
   let prompt = "Generate a positive affirmation.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-
   //affirmation.innerHTML = "Generating a joke for you.. please wait";
   axios.get(apiUrl).then(displayAffirmation);
 }
