@@ -2,3 +2,9 @@ body{
     background-color: aquamarine;
     text-align: center;
 }
+
+button{
+    text-align: center;
+    color: blue;
+    background-color: azure;
+}
