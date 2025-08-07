@@ -13,11 +13,11 @@ button{
     background-color: azure;
 }
 
-footer{
+footer {
     text-align: center;
-    margin: 0 auto;
+    font-size: 13px;
+    margin-top: 30px;
 }
-
 h2 {
     font-size: 20;
     font-family: Arial, Helvetica, sans-serif;
