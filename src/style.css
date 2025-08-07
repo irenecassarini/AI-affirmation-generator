@@ -7,11 +7,11 @@ body{
 
 button{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     color: blue;
     background-color: azure;
-   
+    border-radius: 10%;
 }
 
 footer{
