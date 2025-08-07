@@ -15,7 +15,8 @@ button{
 }
 
 footer{
-    position: fixed;
+    position: absolute;
+    text-align: center;
 }
 
 h2 {
