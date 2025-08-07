@@ -3,8 +3,8 @@ affirmation.addEventListener("click", showAffirmation);
 
 function showAffirmation() {
   let apiKey = "334ff5a8425o317bf171aa4a1a6b3b0t";
-  let context = "Be nice and anticapitalist";
-  let prompt = "I am trying to be accepted into medical school: Generate a positive affirmation to help me study and face the exams and long years of studying.";
+  let context = "My name is Cecilia. Be short! And be nice and anticapitalist";
+  let prompt = "I am trying to be accepted into medical school: Generate a short positive affirmation to help me study and face the exams and long years of studying.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   //affirmation.innerHTML = "Generating a joke for you.. please wait";
